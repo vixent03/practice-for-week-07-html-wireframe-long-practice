@@ -1,71 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./site.css">
-    <!-- Add code to use the new-window icon here  -->
-    <title>Home Page</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
 </head>
-<section class="nav-bar">
-    <nav class="head-nav">
-        <button type='navi' class="head-nav-item" id="home"><a href="#">Home</a></button>
-        <button class="head-nav-item" id="signin"><a href="#">Sign In</a></button>
-        <button class="head-nav-item" id="getstarted"><a href="#">Get Started</a></button>
+
+<body>
+
+
+    <nav class="upper_nav">
+        <div>
+            <button class="home-button" id="top-of-the-page"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAACFCAMAAABCBMsOAAAAY1BMVEX///8AAACHh4eBgYGWlpbl5eWzs7MMDAwfHx/Q0NDu7u7a2trz8/P4+PiRkZFoaGhRUVHBwcE9PT1ISEgpKSnKysqnp6d0dHQ2Nja5ubmgoKAUFBRhYWEkJCQZGRl7e3tZWVn3mo+VAAADH0lEQVR4nO2aa9eqIBCFozILNTO73///r3zrMGZsoCLBtc5asz+OFo8j7BnUwYDFYrFYLBaLxWL9V6qup9G6p7HkRCmBeH4SD5WyD4hiIZRqfTi5pPgO8WIoEY1mGsTqGV/1gJFZKbKzaHWZOX8dlWI9Fa+6VLEpbHdkLVCxMSwUGwNCiE3fFGMLhBDzfikOVgghxn1SXB0QQmx7oyhKJ4QQp6IfCnJtlxbR3PyVIl/CsAi1i4XRUmTyAoPuB3tMRyQ3byk2Kxhxcj+8T/XYMYtMgdr/O15BNI3ScbgoLs1FJ1M4EsNGHRS7NvMJztkIGHYKrbWROzga3s2tFEvlT0mtMlLUcLzsg+KmIB6tBxUXNI5tYBu1UNAQs6NolwSWlzKPTEHFszEsmotYandBMTKEOKj4xh1QWga00cyxDF8vnZIzwWwEs1EjE9RgDrXgVQWNdjQQBv5v0/NvIV7SojlDPEhTjBXzrC4uR4jnPjFD/5p0h8AbfVTzrbgZEPcGRy2J8EUFe23aqEpMu4aYLyDe0c2Ne+9IeqMV3S7sTEddINCTG9fGlLdKHW7+e1Ex6hO1+TMnw0O0JEYQrn+0UYkQ4Nou0ZJAN69/slGjYXCYtKmx/cRfHnHMsNcmCPsGVdfQjpF6P+KoYAKmVtd2iSZQhb25p426qoFpmHad1OlGBfLqzSVcREq3FN3IrZraQVzTPnMD8k5trrFo3ok6CwlNwdWDQi8StPFMfCDuGGSjOsbt+1600DLvqlEfRb25dkkLj4741X9p2ZkP0z7Lsq5u30O8rnSCqI4/UDQ2Om8jBw+K4rkzp2KI22FPjGc2pl7VpJkEjg7/e+lN8cXTxOW8XtYledX8/UhvRclMyvv/Df2f8hSyyd7n+vVFNga57LZh/K52uOTjU/EoQj0BZYpQFJ3ab6ZgCqZgCqZgCqboiSLdT3Tt7VuWyBTGefYtJFMwBVMwBVMwBVMwhSn7I75vKYaBKPDFLsk4D98uKQX7QMf63V5tnGZ73dy8rwmh7DC/a/yqjfn0sthoZzx+cojz/RiLxWKxWCwWi8Xqpj9AMCrBQMjUmgAAAABJRU5ErkJggg==" id="home-image"></button>
+        </div>
+
+        <div class="outer_link">
+            <button class="home-button"><a class="atag" href="about.com" target="_blank">Sign in</a></button>
+            <button id="get_started"><a class="atag" href="help.com" target="_blank">Get Started</a></button>
+        </div>
     </nav>
-    <nav class="main-nav">
-        <ol>
-            <li class="main-nav-item" id="news"><a href="#">News</a></li>
-            <li class="main-nav-item" id="events"><a href="#">Events</a></li>
-            <li class="main-nav-item" id="pricing"><a href="#">Pricing</a></li>
-            <li class="main-nav-item" id="staff"><a href="#">Staff</a></li>
-            <li class="main-nav-item" id="students"><a href="#">Students</a></li>
-            <li class="main-nav-item" id="about"><a href="#">About</a></li>
-        </ol>
+
+
+    <nav>
+        <div class="lower_nav">
+            <a href="">lorem</a>
+            <a href="">ipsum</a>
+            <a href="">dolor</a>
+            <a href="">aliquam</a>
+            <a href="">faucibus</a>
+            <a href="">suspendisse</a>
+        </div>
     </nav>
-</section>
-<main>
-    <div class="heading">
-        <h1>Hello, World!</h1>
-    </div>
-    <img class="main-img" src="https://www.creatopy.com/blog/wp-content/uploads/2016/06/images-for-banner-ads.png" alt="Generic banner image">
-    <div class="body-introduction">
-        <p>Wireframes are lightweight, rapidly developed design specs that outline the structure and layout of a web page. In this reading, you will learn how to identify HTML elements from a wireframe spec and use it to generate semantic HTML code.
-        </p>
-    </div>
-    <h2 class="body-main-1">HTML, CSS, JS</h2>
-    <p>
-        Webpages are comprised of three major components:
-        <ul>
-            <li><b class="term">HTML:</b> Page structure, layout</li>
-            <li><b class="term">CSS:</b> Look and feel, styling and positioning</li>
-            <li><b class="term">JavaScript:</b> Interactivity, utility</li>
-        </ul>
-    </p>
-    <h2 class="body-main-2">Reading wireframes</h2>
-    <p>
-        Take a look at this floorplan for a house. The house's structure and layout are clearly measured while details like sinks, countertops and windows are represented with generic icons. The look and feel of those details depend on the interior designer but
-        the architect is only concerned with their location. <br>
-        <img class="wireframe-img" src="https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Modular-Curriculum/content/css/wireframes_floorplan.jpeg" alt="general blueprint of a house">
-    </p>
-    <div>
-        Read more at:
-        <ul class="external-resources">
-            <li><a href="https://my.appacademy.io/lessons/wireframes/6657bd43/practices/wireframes/7b2e9608">App Academy
-            Page 1</a></li>
-            <li><a href="https://my.appacademy.io/lessons/wireframes/6657bd43/practices/exercise-wireframes/64aaae51">App
-            Academy Page 2</a></li>
-        </ul>
-    </div>
-    <footer>
-        <nav class="foot-nav">
-            <button class="foot-nav-item" id="help"><a href="#">Help</a></button>
-        </nav>
-    </footer>
-</main>
+
+
+    <main>
+        <header>
+            <h1>Lorem ipsum dolor: sit amet,<br> consectetur adipisicing elit, sed do</h1>
+        </header>
+        <div class="main_img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" alt="">
+        </div>
+        <p class="sub_header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est modi id <br> natus deleniti iusto saepe, nihil enim sunt reprehenderit velit. Voluptatem porro</p>
+        <hr>
+
+
+        <section class="text_file">
+            <h2>heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente consequatur nobis dignissimos laudantium consectetur a in, id ullam laboriosam, iste vitae recusandae, ea minus autem tempora at dicta animi illum distinctio beatae quos eaque
+                necessitatibus labore unde. Est, possimus architecto commodi eos maiores numquam a et tempora nesciunt amet! Commodi vel voluptatum praesentium eligendi totam odit error numquam explicabo soluta?</p>
+            <h2>heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officia qui adipisci voluptas porro esse ut. Unde optio, laudantium necessitatibus et expedita voluptate assumenda reprehenderit modi illo, aspernatur in ipsam, eos numquam hic aliquam
+                facere. Ipsam molestias rerum quaerat debitis eligendi fuga natus? Iure, saepe. Eos ipsum non optio animi distinctio facere sit, veritatis odit ullam ut, perspiciatis placeat! Dolorem in aliquid voluptate ducimus placeat dignissimos laborum
+                eius id provident ipsum quia iste beatae exercitationem veniam, saepe, nemo, soluta fugiat!</p>
+            <h2>
+                heading
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea error accusamus fuga est at, minima dolore. Fuga minima qui voluptate nesciunt tempora quia culpa beatae enim labore corporis nostrum tempore, repudiandae aliquam repellendus,
+                voluptatibus, quisquam eaque quos delectus aliquid dolor aspernatur. Eos consectetur tempora harum minima! Ratione in explicabo nihil, exercitationem dolor praesentium maxime rem unde tenetur rerum! Similique at vitae quos, tempora fugiat
+                aperiam laborum nulla porro, alias vel autem numquam? Dolorem eaque ex ad, tenetur consequatur incidunt rerum ea soluta accusamus placeat ducimus nulla itaque aspernatur harum maiores cumque officia vitae similique. Ad odio asperiores
+                dolorum eaque.</p>
+        </section>
+        <section class="more_article">
+            <p>more articles</p>
+            <ul>
+                <li>
+                    <a href="lorem.com" target="_blank">lorem ipsum dolor</a></li>
+                <li>
+                    <a href="lorem.com" target="_blank">dictum trabas dolorem</a></li>
+            </ul>
+        </section>
+        <div class="grid">
+            <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+            <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+            <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+            <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+        </div>
+
+    </main>
+
+    <nav class="upper_nav">
+        <div>
+            <button class="home-button"><a href="#top-of-the-page"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAACFCAMAAABCBMsOAAAAY1BMVEX///8AAACHh4eBgYGWlpbl5eWzs7MMDAwfHx/Q0NDu7u7a2trz8/P4+PiRkZFoaGhRUVHBwcE9PT1ISEgpKSnKysqnp6d0dHQ2Nja5ubmgoKAUFBRhYWEkJCQZGRl7e3tZWVn3mo+VAAADH0lEQVR4nO2aa9eqIBCFozILNTO73///r3zrMGZsoCLBtc5asz+OFo8j7BnUwYDFYrFYLBaLxWL9V6qup9G6p7HkRCmBeH4SD5WyD4hiIZRqfTi5pPgO8WIoEY1mGsTqGV/1gJFZKbKzaHWZOX8dlWI9Fa+6VLEpbHdkLVCxMSwUGwNCiE3fFGMLhBDzfikOVgghxn1SXB0QQmx7oyhKJ4QQp6IfCnJtlxbR3PyVIl/CsAi1i4XRUmTyAoPuB3tMRyQ3byk2Kxhxcj+8T/XYMYtMgdr/O15BNI3ScbgoLs1FJ1M4EsNGHRS7NvMJztkIGHYKrbWROzga3s2tFEvlT0mtMlLUcLzsg+KmIB6tBxUXNI5tYBu1UNAQs6NolwSWlzKPTEHFszEsmotYandBMTKEOKj4xh1QWga00cyxDF8vnZIzwWwEs1EjE9RgDrXgVQWNdjQQBv5v0/NvIV7SojlDPEhTjBXzrC4uR4jnPjFD/5p0h8AbfVTzrbgZEPcGRy2J8EUFe23aqEpMu4aYLyDe0c2Ne+9IeqMV3S7sTEddINCTG9fGlLdKHW7+e1Ex6hO1+TMnw0O0JEYQrn+0UYkQ4Nou0ZJAN69/slGjYXCYtKmx/cRfHnHMsNcmCPsGVdfQjpF6P+KoYAKmVtd2iSZQhb25p426qoFpmHad1OlGBfLqzSVcREq3FN3IrZraQVzTPnMD8k5trrFo3ok6CwlNwdWDQi8StPFMfCDuGGSjOsbt+1600DLvqlEfRb25dkkLj4741X9p2ZkP0z7Lsq5u30O8rnSCqI4/UDQ2Om8jBw+K4rkzp2KI22FPjGc2pl7VpJkEjg7/e+lN8cXTxOW8XtYledX8/UhvRclMyvv/Df2f8hSyyd7n+vVFNga57LZh/K52uOTjU/EoQj0BZYpQFJ3ab6ZgCqZgCqZgCqboiSLdT3Tt7VuWyBTGefYtJFMwBVMwBVMwBVMwhSn7I75vKYaBKPDFLsk4D98uKQX7QMf63V5tnGZ73dy8rwmh7DC/a/yqjfn0sthoZzx+cojz/RiLxWKxWCwWi8Xqpj9AMCrBQMjUmgAAAABJRU5ErkJggg==" id="home-image"></a></button>
+        </div>
+
+        <div class="lower_nav">
+            <a class="lower_nav" href="about.com" target="_blank">Sign in</a>
+            <a class="lower_nav" href="help.com" target="_blank">Get Started</a>
+        </div>
+    </nav>
+
 </body>
 
 </html>
